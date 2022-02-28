@@ -1,3 +1,10 @@
-# knowledge-pool
+---
+layout: default
+title: Home
+nav_order: 1
+permalink: /
+---
 
-Testing Github pages :)
+# Simbiose Knowledge Pool
+
+![](assets/images/under-construction.png)

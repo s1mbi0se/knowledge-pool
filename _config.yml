@@ -1,4 +1,7 @@
-title: "Simbiose Knowledge Pool"
-remote_theme: pmarsceill/just-the-docs
-color_scheme: "dark"
-search_enabled: true
+title: Simbiose Knowledge Pool
+logo: "/assets/images/logo.png"
+
+# Build settings
+theme: just-the-docs
+plugins:
+  - jekyll-feed
