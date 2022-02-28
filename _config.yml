@@ -2,6 +2,4 @@ title: Simbiose Knowledge Pool
 logo: "/assets/images/logo.png"
 
 # Build settings
-theme: just-the-docs
-plugins:
-  - jekyll-feed
+remote_theme: pmarsceill/just-the-docs
