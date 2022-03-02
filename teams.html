@@ -1,0 +1,19 @@
+---
+layout: page
+permalink: /teams/
+title: Teams
+---
+
+<h1>Teams</h1>
+
+{% assign groups = site.teams | group_by: "category" | sort: "name" | reverse %}
+{% for group in groups %}
+<h2>{{ group.name | default: "Others" }}</h2>
+<ul>
+    {% for team in group.items %}
+    <li>
+        <h3><a href="{{ team.url }}">{{ team.name }}</a></h3>
+    </li>
+    {%endfor%}
+</ul>
+{%endfor%}

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<h1>{{ page.name }}</h1>
+<h2>{{ page.position }}</h2>
+
+<p>Used by these teams:
+    {% assign filtered_teams = site.teams | where: 'topics', page.short_name %}
+    {% for team in filtered_teams %}
+    <a href="{{ team.url }}">{{ team.title }}</a>,
+    {% endfor %}
+</p>
+
+<hr>
+
+{{ content }}
+
+<h3>Links</h3>
+<ul>
+    {% for link in page.links %}
+    <li><a href="{{ link.link }}" target="_blank">{{ link.title }}</a></li>
+    {% endfor %}
+</ul>
