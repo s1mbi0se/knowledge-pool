@@ -12,7 +12,7 @@ title: Teams
 <ul>
     {% for team in group.items %}
     <li>
-        <h3><a href="{{ team.url }}">{{ team.name }}</a></h3>
+        <h3><a href="{{ team.url | relative_url }}">{{ team.name }}</a></h3>
     </li>
     {%endfor%}
 </ul>

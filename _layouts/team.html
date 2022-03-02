@@ -11,6 +11,6 @@ layout: default
 <ul>
     {% assign filtered_topics = site.topics | where: 'short_name', page.topics %}
     {% for topic in filtered_topics %}
-    <li><a href="{{ topic.url }}">{{ topic.title }}</a></li>
+    <li><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a></li>
     {% endfor %}
 </ul>

@@ -8,7 +8,7 @@ layout: default
 <p>Used by these teams:
     {% assign filtered_teams = site.teams | where: 'topics', page.short_name %}
     {% for team in filtered_teams %}
-    <a href="{{ team.url }}">{{ team.title }}</a>,
+    <a href="{{ team.url | relative_url }}">{{ team.title }}</a>,
     {% endfor %}
 </p>
 
