@@ -22,3 +22,13 @@ layout: default
     <li><a href="{{ link.link }}" target="_blank">{{ link.title }}</a></li>
     {% endfor %}
 </ul>
+
+<h3>Challenges</h3>
+{% assign challenges = site.challenges | where: 'topics', page.short_name | sort: "name" %}
+<ul>
+    {% for challenge in challenges %}
+    <li>
+        <h3><a href="{{ challenge.url | relative_url }}">{{ challenge.name }}</a></h3>
+    </li>
+    {%endfor%}
+</ul>

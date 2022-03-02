@@ -1,0 +1,19 @@
+---
+layout: page
+permalink: /challenges/
+title: Challenges
+---
+
+<h1>Challenges</h1>
+
+{% for topic in site.topics %}
+<h2>{{topic.name}}</h2>
+{% assign challenges = site.challenges | where: 'topics', topic.short_name | sort: "name" %}
+<ul>
+    {% for challenge in challenges %}
+    <li>
+        <h3><a href="{{ challenge.url | relative_url }}">{{ challenge.name }}</a></h3>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}
