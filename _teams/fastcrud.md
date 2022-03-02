@@ -1,7 +1,7 @@
 ---
 layout: team
 name: FastCrud
-topics: []
+topics: javascript
 category: FastCrud
 ---
 

@@ -6,10 +6,14 @@ title: Topics
 
 <h1>Topics</h1>
 
+{% assign groups = site.topics | group_by: "category" | sort: "name" %}
+{% for group in groups %}
+<h2>{{ group.name | default: "Others" }}</h2>
 <ul>
-    {% for topic in site.topics %}
+    {% for topic in group.items %}
     <li>
         <h3><a href="{{ topic.url | relative_url }}">{{ topic.name }}</a></h3>
     </li>
-    {% endfor %}
+    {%endfor%}
 </ul>
+{%endfor%}

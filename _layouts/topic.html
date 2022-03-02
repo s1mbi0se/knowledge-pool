@@ -8,8 +8,8 @@ layout: default
 <p>Used by these teams:
     {% assign filtered_teams = site.teams | where: 'topics', page.short_name %}
     {% for team in filtered_teams %}
-    <a href="{{ team.url | relative_url }}">{{ team.title }}</a>,
-    {% endfor %}
+    <a href="{{ team.url | relative_url }}">{{ team.title }}</a>{% if forloop.last %}{% else %}, {% endif %}
+    {% endfor %}.
 </p>
 
 <hr>
