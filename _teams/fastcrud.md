@@ -1,8 +1,13 @@
 ---
 layout: team
+
 name: FastCrud
-topics: javascript
 category: FastCrud
+
+topics: 
+  - javascript
+  - git
+
 ---
 
 Test

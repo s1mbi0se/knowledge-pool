@@ -1,8 +1,12 @@
 ---
 layout: team
-name: Operations
-topics: []
+
 category: FastCrud
+name: Operations
+
+topics:
+  - git
+
 ---
 
 Test

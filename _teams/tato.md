@@ -1,8 +1,13 @@
 ---
 layout: team
+
 name: Tato
-topics: javascript
 category: FastCrud
+
+topics: 
+  - javascript
+  - git
+
 ---
 
 Test

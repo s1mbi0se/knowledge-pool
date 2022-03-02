@@ -1,8 +1,13 @@
 ---
 layout: team
+
 name: Dremio Arrow
-topics: java
 category: Dremio
+
+topics:
+  - java
+  - git
+
 ---
 
 Test

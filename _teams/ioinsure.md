@@ -1,7 +1,12 @@
 ---
 layout: team
+
 name: io.insure
-topics: javascript
+
+topics: 
+  - javascript
+  - git
+
 ---
 
 Test

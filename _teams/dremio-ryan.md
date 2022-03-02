@@ -1,8 +1,13 @@
 ---
 layout: team
+
 name: Dremio Ryan
-topics: java
 category: Dremio
+
+topics: 
+  - java
+  - git
+
 ---
 
 Test

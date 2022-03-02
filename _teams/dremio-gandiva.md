@@ -1,8 +1,13 @@
 ---
 layout: team
+
 name: Dremio Gandiva
-topics: java
 category: Dremio
+
+topics:
+  - java
+  - git
+
 ---
 
 Test

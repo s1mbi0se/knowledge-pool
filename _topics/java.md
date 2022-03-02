@@ -1,5 +1,6 @@
 ---
 layout: topic
+
 name: "Java"
 short_name: java
 category: "Languages"
@@ -9,4 +10,5 @@ links:
     link: https://learnxinyminutes.com/docs/java/
   - title: Java Tutorial
     link: https://www.tutorialspoint.com/java/index.htm
+
 ---

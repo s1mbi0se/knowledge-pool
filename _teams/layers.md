@@ -1,7 +1,12 @@
 ---
 layout: team
+
 name: Layers
-topics: javascript
+
+topics: 
+  - javascript
+  - git
+
 ---
 
 Test
