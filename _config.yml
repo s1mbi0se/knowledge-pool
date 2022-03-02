@@ -1,5 +1,6 @@
 title: Simbiose Knowledge Pool
 logo: "/assets/images/logo.png"
+baseurl: "https://s1mbi0se.github.io/knowledge-pool/"
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
