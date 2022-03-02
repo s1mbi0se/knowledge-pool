@@ -27,8 +27,6 @@ layout: default
 {% assign challenges = site.challenges | where: 'topics', page.short_name | sort: "name" %}
 <ul>
     {% for challenge in challenges %}
-    <li>
-        <h3><a href="{{ challenge.url | relative_url }}">{{ challenge.name }}</a></h3>
-    </li>
+    <li><a href="{{ challenge.url | relative_url }}">{{ challenge.name }}</a></li>
     {%endfor%}
 </ul>
