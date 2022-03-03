@@ -12,7 +12,7 @@ title: Topics
 <ul>
     {% for topic in group.items %}
     <li>
-        <h3><a href="{{ topic.url | relative_url }}">{{ topic.name }}</a></h3>
+        <h3><a href="{{ topic.url | relative_url }}"><img src="{{ topic.icon }}" style="height: 1em"> {{ topic.name }}</a></h3>
     </li>
     {%endfor%}
 </ul>

@@ -10,6 +10,6 @@ layout: default
 <ul>
     {% for topic_short_name in page.topics %}
     {% assign topic = site.topics | where: "short_name", topic_short_name | first %}
-    <li><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a></li>
+    <li><a href="{{ topic.url | relative_url }}"><img src="{{ topic.icon }}" style="height: 1em"> {{ topic.title }}</a></li>
     {% endfor %}
 </ul>
