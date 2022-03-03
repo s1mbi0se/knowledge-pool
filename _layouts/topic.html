@@ -2,26 +2,28 @@
 layout: default
 ---
 
-<h1>{{ page.name }}</h1>
-<h2>{{ page.position }}</h2>
+<h1><img src="{{ page.icon }}" style="height: 0.8em"> {{ page.name }}</h1>
 
-<p>Used by these teams:
+<p>Used by:
     {% assign filtered_teams = site.teams | where: 'topics', page.short_name %}
     {% for team in filtered_teams %}
     <a href="{{ team.url | relative_url }}">{{ team.title }}</a>{% if forloop.last %}{% else %}, {% endif %}
     {% endfor %}.
 </p>
 
-<hr>
-
 {{ content }}
 
+<hr>
+
 <h3>Links</h3>
+{% for link_list in page.link_lists %}
+<h4>{{ link_list.title }}</h4>
 <ul>
-    {% for link in page.links %}
+    {% for link in link_list.links %}
     <li><a href="{{ link.link }}" target="_blank">{{ link.title }}</a></li>
     {% endfor %}
 </ul>
+{% endfor %}
 
 <h3>Challenges</h3>
 {% assign challenges = site.challenges | where: 'topics', page.short_name | sort: "name" %}
