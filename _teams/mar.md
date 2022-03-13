@@ -7,6 +7,12 @@ category: FastCrud
 topics: 
   - javascript
   - git
+  - python
+  - django
+  - logic
+  - sql
+  - html
+  - css
 
 ---
 
