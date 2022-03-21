@@ -8,11 +8,11 @@ topics:
   - javascript
   - git
   - python
-  - django
+#  - django
   - logic
-  - sql
-  - html
-  - css
+#  - sql
+#  - html
+#  - css
 
 ---
 

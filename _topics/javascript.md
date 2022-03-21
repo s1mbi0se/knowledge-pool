@@ -11,10 +11,8 @@ link_lists:
     links:
     - title: Doc - Devdocs
       link: https://devdocs.io/javascript/
-    
     - title: Doc - Developer Mozilla
       link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/
-
     - title: Learn Javascript
       link: https://www.freecodecamp.org/learn/javascript
   
@@ -54,16 +52,16 @@ link_lists:
     - title: Object orientation - 2
       link: https://cursos.alura.com.br/course/javascript-es6-orientacao-a-objetos-parte-2
 
-- title: Let's practice
-  links:
-  - title: Challenges
-    link: https://www.devchallenge.com.br/challenges?type=frontend
+  - title: "Let's practice"
+    links:
+    - title: Challenges
+      link: https://www.devchallenge.com.br/challenges?type=frontend
 
-  - title: Code Wars
-    link: https://www.codewars.com/
+    - title: Code Wars
+      link: https://www.codewars.com/
 
-  - title: Hacker Rank
-    link: https://www.hackerrank.com/
+    - title: Hacker Rank
+      link: https://www.hackerrank.com/
 
 ---
 

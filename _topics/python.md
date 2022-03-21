@@ -66,19 +66,19 @@ link_lists:
     - title: Data visualization
       link: https://www.udemy.com/course-dashboard-redirect/?course_id=2034052
 
-- title: Let's practice
-  links:
-  - title: 10 challenges for beginners
-    link: https://www.codecademy.com/resources/blog/python-code-challenges-for-beginners/
+  - title: Let's practice
+    links:
+    - title: 10 challenges for beginners
+      link: https://www.codecademy.com/resources/blog/python-code-challenges-for-beginners/
 
-  - title: Challenges
-    link: https://pythonprinciples.com/challenges/
+    - title: Challenges
+      link: https://pythonprinciples.com/challenges/
 
-  - title: Code Wars
-    link: https://www.codewars.com/
+    - title: Code Wars
+      link: https://www.codewars.com/
 
-  - title: Hacker Rank
-    link: https://www.hackerrank.com/
+    - title: Hacker Rank
+      link: https://www.hackerrank.com/
 
 ---
 

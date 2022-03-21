@@ -8,7 +8,7 @@ category: "Languages"
 
 link_lists:
   - title: Introduction
-  - links:
+    links:
     - title: Learn Java in X minutes
       link: https://learnxinyminutes.com/docs/java/
     - title: Java Tutorial
@@ -20,7 +20,7 @@ link_lists:
       link: https://web.fe.up.pt/~arestivo/page/exercises/solid/
 
   - title: Intermediate
-  - links:
+    links:
     - title: Effective Java
       link: https://kea.nu/files/textbooks/new/Effective%20Java%20%282017%2C%20Addison-Wesley%29.pdf
     - title: Java 8 In Action
@@ -29,7 +29,7 @@ link_lists:
       link: https://raw.githubusercontent.com/manjunath5496/Java-Programming-Books/master/java(34).pdf
 
   - title: Read on your own time
-  - links:
+    links:
     - title: Functional Programming in Java
       link: https://pragprog.com/titles/vsjava8/functional-programming-in-java/
     - title: "Java: Generics"

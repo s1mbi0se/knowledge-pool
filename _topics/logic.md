@@ -4,7 +4,7 @@ layout: topic
 name: "Logic"
 short_name: logic
 icon: https://globalinx.co.jp/wp-content/uploads/2017/09/logical-thinking.png
-category: "Knowladge"
+category: "General"
 
 link_lists:
   - title: Beginners
@@ -20,13 +20,13 @@ link_lists:
     - title: Logic programming
       link: https://www.udemy.com/course/curso-algoritmos-logica-de-programacao/learn/lecture/16931324?start=15#overview
 
-- title: Let's practice
-  links:
-  - title: Code Wars
-    link: https://www.codewars.com/
+  - title: Let's practice
+    links:
+    - title: Code Wars
+      link: https://www.codewars.com/
 
-  - title: Hacker Rank
-    link: https://www.hackerrank.com/
+    - title: Hacker Rank
+      link: https://www.hackerrank.com/
 
 ---
 
