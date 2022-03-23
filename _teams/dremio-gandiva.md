@@ -5,8 +5,9 @@ name: Dremio Gandiva
 category: Dremio
 
 topics:
-  - java
+  - softeng
   - git
+  - java
 
 ---
 

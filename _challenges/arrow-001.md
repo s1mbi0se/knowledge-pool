@@ -4,8 +4,9 @@ layout: challenge
 name: Arrow - 001
 
 topics:
-  - java
+  - softeng
   - git
+  - java
 
 ---
 

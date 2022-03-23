@@ -4,9 +4,16 @@ layout: team
 name: Dremio Ryan
 category: Dremio
 
-topics: 
-  - java
+topics:
+  - softeng
+  - backend
   - git
+  - java
+  - junit
+  - cloud
+  - grpc
+  - docker
+  - kubernetes
 
 ---
 

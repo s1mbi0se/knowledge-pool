@@ -5,7 +5,11 @@ category: FastCrud
 name: Operations
 
 topics:
+  - softeng
+  - backend
   - git
+  - docker
+  - cloud
 
 ---
 

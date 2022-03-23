@@ -3,9 +3,11 @@ layout: team
 
 name: Layers
 
-topics: 
-  - javascript
+topics:
+  - softeng
+  - backend
   - git
+  - javascript
 
 ---
 

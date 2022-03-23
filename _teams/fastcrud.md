@@ -4,9 +4,11 @@ layout: team
 name: FastCrud
 category: FastCrud
 
-topics: 
-  - javascript
+topics:
+  - softeng
+  - backend
   - git
+  - javascript
 
 ---
 
