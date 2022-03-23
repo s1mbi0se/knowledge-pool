@@ -3,7 +3,7 @@ layout: topic
 
 name: "Java"
 short_name: java
-icon: https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png
+icon: ../assets/images/java.png
 category: "Languages"
 
 link_lists:

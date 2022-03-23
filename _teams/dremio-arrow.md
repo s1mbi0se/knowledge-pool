@@ -2,12 +2,13 @@
 layout: team
 
 name: Dremio Arrow
-icon: https://www.nicepng.com/png/full/46-466813_clip-library-download-collection-of-high-quality-camera.png
+icon: ../assets/images/arrow.png
 category: Dremio
 
 topics:
-  - java
+  - softeng
   - git
+  - java
 
 ---
 
