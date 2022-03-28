@@ -4,8 +4,10 @@ layout: team
 name: io.insure
 
 topics: 
-  - javascript
+  - softeng
+  - backend
   - git
+  - javascript
 
 ---
 

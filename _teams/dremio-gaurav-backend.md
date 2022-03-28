@@ -5,8 +5,10 @@ name: Dremio Gaurav (Backend)
 category: Dremio
 
 topics: 
-  - java
+  - softeng
+  - backend
   - git
+  - java
 
 ---
 

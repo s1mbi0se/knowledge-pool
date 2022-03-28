@@ -3,7 +3,7 @@ layout: topic
 
 name: "Git"
 short_name: git
-icon: https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png
+icon: ../assets/images/git.png
 category: "Version Control"
 
 
